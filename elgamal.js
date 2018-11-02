@@ -8,4 +8,4 @@ button.addEventListener("click", function(event) {
   var c1 = c[0].Number();
   var c2 = c[1].Number();
   document.getElementById("res").value = c1;
-}
+});
