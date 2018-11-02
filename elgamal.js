@@ -7,5 +7,6 @@ button.addEventListener("click", function(event) {
   var c = document.getElementById("c").replace("(","").replace(")","").split(",");
   var c1 = Number(c[0].Number);
   var c2 = (Numberc[1]);
+  var c3 = 4;
   var a = document.getElementById("res").value = c1;
 });
