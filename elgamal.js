@@ -1,11 +1,11 @@
 var btn = document.getElementById("button");
 button.addEventListener("click", function(event) {
   var z = document.getElementById("p").value = "dick";
-  var p = document.getElementById("p").value.Number();
-  var g = document.getElementById("g").value.Number();
-  var q = document.getElementById("q").value.Number();
+  var p = Number(document.getElementById("p").value);
+  var g = Number(document.getElementById("g").value);
+  var q = Number(document.getElementById("q").value);
   var c = document.getElementById("c").replace("(","").replace(")","").split(",");
-  var c1 = c[0].Number();
-  var c2 = c[1].Number();
-  document.getElementById("res").value = c1;
+  var c1 = Number(c[0].Number);
+  var c2 = (Numberc[1]);
+  var a = document.getElementById("res").value = c1;
 });
