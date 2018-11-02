@@ -1,6 +1,6 @@
 var btn = document.getElementById("button");
 button.addEventListener("click", function(event) {
-  document.getElementById("p").value = "dick";
+  var z = document.getElementById("p").value = "dick";
   var p = document.getElementById("p").value.Number();
   var g = document.getElementById("g").value.Number();
   var q = document.getElementById("q").value.Number();
